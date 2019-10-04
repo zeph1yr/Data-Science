@@ -1,4 +1,7 @@
-import cPickle
+import cPickle  # To read .dat files
+
+ # Pickling or flattening, converts structured data into a data stream format
+ #Here we are converting DEAP Dataset .dat files to .txt files
 
 channels = ['Fp1', 'AF3', 'F3', 'F7', 'FC5', 'FC1',
             'C3', 'T7', 'CP5', 'CP1', 'P3', 'P7',
