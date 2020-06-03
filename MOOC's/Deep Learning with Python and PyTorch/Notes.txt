@@ -1,0 +1,2 @@
+Tensorflow is usually used in large scale production, whereas Pytorch is used by researchers to test out ideas quickly.
+Keras is simpler to experiment with for standard layers.
