@@ -3,7 +3,8 @@ drive.mount('/content/gdrive')
 
 files.upload() #this will prompt you to update the json
 
-!pip install -q kaggle
+!pip install --upgrade pip
+!pip install -q kaggle==1.5.6
 !mkdir -p ~/.kaggle
 !cp kaggle.json ~/.kaggle/
 !ls ~/.kaggle
