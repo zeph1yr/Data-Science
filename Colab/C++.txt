@@ -1,0 +1,14 @@
+%%writefile test.cpp
+
+//cpp code
+int main(int Argc,char* Args[])
+{
+  return 0;
+}
+
+//Code block 2 (Compile and run):
+%%script bash
+
+g++ test.cpp -o test
+ls -laX
+./test
